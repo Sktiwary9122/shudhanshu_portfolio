@@ -33,65 +33,68 @@ const About = () => {
       </div>
       
       <h1 className='SkillsHeading'>Professional Skillset</h1>
-      <div className='skills'>
+      <div className='w-[100%] sm:w-[80%] md:w-[70%] lg:w-[80%] xl:w-[60%] flex flex-wrap justify-center mx-auto'>
+        
+          <Tilt>
+          <Skills skill='React' classes='SkillBox1'/>
+          </Tilt>
+          <Tilt>
+            <Skills skill='Node' classes='SkillBox1' />
+          </Tilt>
+          <Tilt>
+            <Skills skill='Express' classes='SkillBox1' />
+          </Tilt>
+          <Tilt>
+            <Skills skill='MongoDb' classes='SkillBox1'/>
+          </Tilt>
+          <Tilt>
+            <Skills skill='Tailwind' classes='SkillBox1'/>
+          </Tilt>
+       
+          <Tilt>
+            <Skills skill='Git' classes='SkillBox2'/>
+          </Tilt>
+          <Tilt>
+            <Skills skill='Github' classes='SkillBox2'/>
+          </Tilt>
+          <Tilt>
+            <Skills skill='Javascript' classes='SkillBox2' />
+          </Tilt>
+          <Tilt>
+            <Skills skill='C++' classes='SkillBox2' />
+          </Tilt>
+          <Tilt>
+            <Skills skill='Java' classes='SkillBox2'/>
+          </Tilt>
         <Tilt>
-        <Skills skill='React' />
+          <Skills skill='Python' classes='SkillBox3'/>
         </Tilt>
         <Tilt>
-          <Skills skill='Node' />
+          <Skills skill='Html' classes='SkillBox3'/>
         </Tilt>
         <Tilt>
-          <Skills skill='Express' />
+          <Skills skill='Css' classes='SkillBox3'/>
         </Tilt>
         <Tilt>
-          <Skills skill='MongoDb' />
+          <Skills skill='Postman' classes='SkillBox3'/>
         </Tilt>
         <Tilt>
-          <Skills skill='Tailwind'/>
+          <Skills skill='Figma' classes='SkillBox3' />
+        </Tilt>
+        
+        <Tilt>
+          <Skills skill='ChakraUi' classes='SkillBox'/>
         </Tilt>
         <Tilt>
-          <Skills skill='Git' />
+          <Skills skill='Netlify' classes='SkillBox'/>
         </Tilt>
         <Tilt>
-          <Skills skill='Github' />
+          <Skills skill='Npm' classes='SkillBox' />
         </Tilt>
         <Tilt>
-          <Skills skill='Javascript' />
+          <Skills skill='Bootstrap' classes='SkillBox'/>
         </Tilt>
-        <Tilt>
-          <Skills skill='C++' />
-        </Tilt>
-        <Tilt>
-          <Skills skill='Java'/>
-        </Tilt>
-        <Tilt>
-          <Skills skill='Python'/>
-        </Tilt>
-        <Tilt>
-          <Skills skill='Html'/>
-        </Tilt>
-        <Tilt>
-          <Skills skill='Css'/>
-        </Tilt>
-        <Tilt>
-          <Skills skill='Postman' />
-        </Tilt>
-        <Tilt>
-          <Skills skill='Figma' />
-        </Tilt>
-        <Tilt>
-          <Skills skill='ChakraUi'/>
-        </Tilt>
-        <Tilt>
-          <Skills skill='Netlify'/>
-        </Tilt>
-        <Tilt>
-          <Skills skill='Npm' />
-        </Tilt>
-        <Tilt>
-          <Skills skill='Bootstrap'/>
-        </Tilt>
-            
+       
       </div>
     </>
   )

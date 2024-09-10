@@ -5,7 +5,7 @@ import {DiNodejs, DiJavascript1} from "react-icons/di";
 import {SiExpress, SiMongodb, SiPostman, SiVercel ,SiChakraui , SiNetlify,SiTailwindcss} from "react-icons/si";
 
 
-const Skills = ({skill}) => {
+const Skills = ({skill,classes}) => {
     const icon = {
         'C++': <CgCPlusPlus/>,
         Postman: <SiPostman/>,
@@ -31,7 +31,7 @@ const Skills = ({skill}) => {
     }
     
   return (
-    <div title={skill} className='SkillBox'>
+    <div title={skill} className={classes}>
       {icon[skill]}
     </div>
   )

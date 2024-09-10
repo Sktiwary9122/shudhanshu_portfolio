@@ -42,7 +42,7 @@ const Nav = () => {
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
-        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>Shudhanshu Tiwari</h1>
+        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo mt-10'>Shudhanshu Tiwari</h1>
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>
@@ -50,7 +50,7 @@ const Nav = () => {
             <span className='bar'></span>
         </div>
 
-        <ul className='NavbarLinks'>
+        <ul className='NavbarLinks mt-5'>
             <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Home</Link></li>
             <li onClick={hideMenu}><Link to="/About"><BsPerson/> About</Link></li>
             <li onClick={hideMenu}><Link to="/Project"><BsCodeSlash/> Project</Link></li>

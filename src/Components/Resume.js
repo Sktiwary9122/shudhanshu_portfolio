@@ -25,8 +25,8 @@ const Resume = () => {
       </Document>
 
       <a href={pdf} target='_blank' download="Shudhanshu's Resume">
-        <button className='downloadCV' type='button'>
-          <h3><BsDownload/>&nbsp; Download Resume</h3>
+        <button className='lex gap-2 bg-[#431f47] text-xl items-center justify-center p-3 rounded-xl hover:bg-[#d9f02a] hover:text-black font-bold mt-5'  type='button'>
+          <h3 className='flex items-center'><BsDownload/>&nbsp; Download Resume</h3>
         </button>
       </a>
 
